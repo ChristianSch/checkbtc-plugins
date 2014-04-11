@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DataSourceProtocol.h"
 
-@interface AIBitcoinCentralExchangeAPIController : NSObject
+@interface AIBitcoinCentralExchangeAPIController : NSObject<DataSourceProtocol>
+{
+	NSDictionary *json;
+}
+
+@property NSNumber *protocolVersion;
 
 @end
