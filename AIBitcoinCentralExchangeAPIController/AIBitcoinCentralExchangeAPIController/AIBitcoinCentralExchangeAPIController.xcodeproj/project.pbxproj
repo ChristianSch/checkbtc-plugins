@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		174073B518F80B8E00AEFCE3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174073B418F80B8E00AEFCE3 /* CoreFoundation.framework */; };
 		174073BB18F80B8E00AEFCE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 174073B918F80B8E00AEFCE3 /* InfoPlist.strings */; };
+		17C0798018F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0797F18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,8 @@
 		174073B818F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIBitcoinCentralExchangeAPIController-Info.plist"; sourceTree = "<group>"; };
 		174073BA18F80B8E00AEFCE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		174073BC18F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIBitcoinCentralExchangeAPIController-Prefix.pch"; sourceTree = "<group>"; };
+		17C0797E18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBitcoinCentralExchangeAPIController.h; sourceTree = "<group>"; };
+		17C0797F18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBitcoinCentralExchangeAPIController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		174073B718F80B8E00AEFCE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17C0797E18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.h */,
+				17C0797F18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m */,
 				174073B818F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Info.plist */,
 				174073B918F80B8E00AEFCE3 /* InfoPlist.strings */,
 				174073BC18F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Prefix.pch */,
@@ -136,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C0798018F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +274,7 @@
 				174073C118F80B8E00AEFCE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
