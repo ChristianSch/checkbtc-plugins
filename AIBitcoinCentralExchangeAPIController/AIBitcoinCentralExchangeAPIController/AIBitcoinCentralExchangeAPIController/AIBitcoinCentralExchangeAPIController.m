@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 andinfinity. All rights reserved.
 //
 
-#define VERSION 0.1
+#define VERSION 0.3
 
 
 #import "AIBitcoinCentralExchangeAPIController.h"
