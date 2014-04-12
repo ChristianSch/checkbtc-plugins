@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DEC8230A-F5CC-43BF-93D6-623A30EFA286</string>
+	<string>421BC255-A54B-4BB7-A102-349095802F57</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AIBitcoinCentralExchangeAPIController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CE19191D-25E9-4A48-9DC7-79482A2A1901</key>
-		<string>https://github.com/ChristianSch/checkBTC</string>
+		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<string>https://github.com/ChristianSch/checkbtc-plugins.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>APIControllers/AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController.xcodeproj/project.xcworkspace</string>
+	<string>AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CE19191D-25E9-4A48-9DC7-79482A2A1901</key>
-		<string>../../../../..</string>
+		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ChristianSch/checkBTC</string>
+	<string>https://github.com/ChristianSch/checkbtc-plugins.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CE19191D-25E9-4A48-9DC7-79482A2A1901</string>
+	<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CE19191D-25E9-4A48-9DC7-79482A2A1901</string>
+			<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CheckBTC</string>
+			<string>CheckBTC-Plugins</string>
 		</dict>
 	</array>
 </dict>

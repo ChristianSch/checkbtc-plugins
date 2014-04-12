@@ -18,6 +18,7 @@
 		174073B818F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIBitcoinCentralExchangeAPIController-Info.plist"; sourceTree = "<group>"; };
 		174073BA18F80B8E00AEFCE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		174073BC18F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIBitcoinCentralExchangeAPIController-Prefix.pch"; sourceTree = "<group>"; };
+		178B48A218F95A600088C62F /* DataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceProtocol.h; sourceTree = "<group>"; };
 		17C0797E18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBitcoinCentralExchangeAPIController.h; sourceTree = "<group>"; };
 		17C0797F18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBitcoinCentralExchangeAPIController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +71,7 @@
 		174073B718F80B8E00AEFCE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				178B48A218F95A600088C62F /* DataSourceProtocol.h */,
 				17C0797E18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.h */,
 				17C0797F18F80EFC00670C26 /* AIBitcoinCentralExchangeAPIController.m */,
 				174073B818F80B8E00AEFCE3 /* AIBitcoinCentralExchangeAPIController-Info.plist */,
