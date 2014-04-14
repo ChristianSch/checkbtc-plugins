@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>625E3634-586A-4743-88CA-02B31C44FFC7</string>
+	<string>458252A8-E923-49A8-BE5C-F37A4FC2677A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AIKrakenExchangeAPIController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>23486CB3-0B3A-4A15-9076-0FC7523C0D50</key>
-		<string>https://github.com/ChristianSch/checkBTC</string>
+		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<string>https://github.com/ChristianSch/checkbtc-plugins.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>APIControllers/AIKrakenExchangeAPIController/AIKrakenExchangeAPIController.xcodeproj/project.xcworkspace</string>
+	<string>AIKrakenExchangeAPIController/AIKrakenExchangeAPIController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>23486CB3-0B3A-4A15-9076-0FC7523C0D50</key>
-		<string>../../../..</string>
+		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ChristianSch/checkBTC</string>
+	<string>https://github.com/ChristianSch/checkbtc-plugins.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23486CB3-0B3A-4A15-9076-0FC7523C0D50</string>
+	<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>23486CB3-0B3A-4A15-9076-0FC7523C0D50</string>
+			<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CheckBTC</string>
+			<string>CheckBTC-Plugins</string>
 		</dict>
 	</array>
 </dict>
