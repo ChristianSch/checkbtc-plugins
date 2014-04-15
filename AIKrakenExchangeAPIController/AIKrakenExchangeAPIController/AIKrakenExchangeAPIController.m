@@ -51,14 +51,31 @@
 
 - (NSNumber*)avgForCurrency:(NSString*)currency
 {
-	NSLog(@"Not implemented yet!");
-	return @0;
+	
+	if (![json[@"error"] count])
+	{
+		return [NSNumber numberWithFloat:[json[@"result"][@"XXBTZEUR"][@"p"][0] floatValue]];
+	}
+	
+	NSLog(@"%@", json[@"error"][0]);
+	return nil;
 }
 
 - (NSString*)currencySymbol:(NSString*)currency
 {
-	NSLog(@"Not implemented yet!");
-	return nil;
+	if ([currency isEqualToString:@"EUR"])
+	{
+		return @"€";
+		
+	} else if ([currency isEqualToString:@"USD"])
+	{
+		return @"$";
+		
+	} else if ([currency isEqualToString:@"KRW"]) {
+		return @"₩";
+	}
+	
+	return currency;
 }
 
 - (NSDictionary *)currencies
