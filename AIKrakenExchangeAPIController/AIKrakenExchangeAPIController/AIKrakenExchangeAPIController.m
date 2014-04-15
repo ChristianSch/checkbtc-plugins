@@ -2,7 +2,7 @@
 //  AIKrakenExchangeAPIController.m
 //  AIKrakenExchangeAPIController
 //
-//  Created by X on 19.03.14.
+//  Created by Christian Schulze on 19.03.14.
 //  Copyright (c) 2014 andinfinity. All rights reserved.
 //
 #define VERSION 0.3
