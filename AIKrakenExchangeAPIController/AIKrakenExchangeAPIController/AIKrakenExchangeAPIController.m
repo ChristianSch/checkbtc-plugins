@@ -57,7 +57,6 @@
 		return [NSNumber numberWithFloat:[json[@"result"][@"XXBTZEUR"][@"p"][0] floatValue]];
 	}
 	
-	NSLog(@"%@", json[@"error"][0]);
 	return nil;
 }
 
