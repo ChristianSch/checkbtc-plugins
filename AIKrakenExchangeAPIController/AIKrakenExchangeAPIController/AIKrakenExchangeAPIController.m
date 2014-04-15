@@ -39,9 +39,6 @@
 				  JSONObjectWithData:data
 				  options:NSJSONReadingMutableContainers
 				  error:nil];
-	
-	if (json[@"error"])
-		NSLog(@"%@", json[@"error"]);
 }
 
 - (NSURL *)dataURLForCurrency:(NSString*)currency
