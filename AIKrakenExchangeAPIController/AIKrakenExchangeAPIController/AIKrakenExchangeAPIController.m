@@ -44,9 +44,9 @@
 - (NSURL *)dataURLForCurrency:(NSString*)currency
 {
 	NSString *currencyPair = [@"XBT" stringByAppendingString:currency];
-	NSString *URL = [@"https://api.kraken.com/0/public/AssetPairs?pair=" stringByAppendingString:currencyPair];
+	NSString *URL = [@"https://api.kraken.com/0/public/Ticker?pair=" stringByAppendingString:currencyPair];
 	
-	return [NSURL URLWithString:[URL stringByAppendingString:@"/money/ticker"]];
+	return [NSURL URLWithString:URL];
 }
 
 - (NSNumber*)avgForCurrency:(NSString*)currency
