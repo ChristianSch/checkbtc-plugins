@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>953F2C39-0F96-422E-9844-9CFB48E8AFE0</string>
+	<string>6F766A37-3171-420F-8E02-3A59571BE6E5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AIBitcoinCentralExchangeAPIController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<key>A303440A-5204-452E-8DBC-D39635664D4F</key>
 		<string>https://github.com/ChristianSch/checkbtc-plugins.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController/AIBitcoinCentralExchangeAPIController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B36B698C-608D-4A3A-9892-6496881CDD62</key>
+		<key>A303440A-5204-452E-8DBC-D39635664D4F</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
+	<string>A303440A-5204-452E-8DBC-D39635664D4F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B36B698C-608D-4A3A-9892-6496881CDD62</string>
+			<string>A303440A-5204-452E-8DBC-D39635664D4F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CheckBTC-Plugins</string>
 		</dict>

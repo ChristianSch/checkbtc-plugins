@@ -8,23 +8,13 @@
 
 #define VERSION 0.3
 
-
 #import "AIBitcoinCentralExchangeAPIController.h"
 
 @implementation AIBitcoinCentralExchangeAPIController
 
-@synthesize protocolVersion;
-
-- (id)init
+- (NSNumber *)protocolVersion
 {
-	self = [super init];
-	
-	if (self != nil)
-	{
-		protocolVersion = @VERSION;
-	}
-	
-	return self;
+	return @VERSION;
 }
 
 + (NSDictionary *)metadata
@@ -50,7 +40,7 @@
 
 - (NSNumber*)avgForCurrency:(NSString*)currency
 {
-	return json[@"midpoint"];
+	return [NSNumber numberWithFloat:[json[@"midpoint"] floatValue]];
 }
 
 - (NSString*)currencySymbol:(NSString*)currency
