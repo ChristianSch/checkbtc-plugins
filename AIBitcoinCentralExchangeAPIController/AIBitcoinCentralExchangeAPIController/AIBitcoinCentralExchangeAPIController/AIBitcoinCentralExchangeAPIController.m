@@ -13,7 +13,7 @@
 @implementation AIBitcoinCentralExchangeAPIController
 
 - (NSNumber *)protocolVersion
-	{
+{
 	return @VERSION;
 }
 
