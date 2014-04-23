@@ -8,23 +8,13 @@
 
 #define VERSION 0.3
 
-
 #import "AIBitcoinCentralExchangeAPIController.h"
 
 @implementation AIBitcoinCentralExchangeAPIController
 
-@synthesize protocolVersion;
-
-- (id)init
-{
-	self = [super init];
-	
-	if (self != nil)
+- (NSNumber *)protocolVersion
 	{
-		protocolVersion = @VERSION;
-	}
-	
-	return self;
+	return @VERSION;
 }
 
 + (NSDictionary *)metadata

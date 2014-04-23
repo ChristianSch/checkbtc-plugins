@@ -14,6 +14,4 @@
 	NSDictionary *json;
 }
 
-@property NSNumber *protocolVersion;
-
 @end
