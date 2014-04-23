@@ -40,7 +40,7 @@
 
 - (NSNumber*)avgForCurrency:(NSString*)currency
 {
-	return json[@"midpoint"];
+	return [NSNumber numberWithFloat:[json[@"midpoint"] floatValue]];
 }
 
 - (NSString*)currencySymbol:(NSString*)currency
