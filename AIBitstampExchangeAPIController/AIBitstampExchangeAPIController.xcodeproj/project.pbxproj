@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176221341907EF5400592DED /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176221331907EF5400592DED /* CoreFoundation.framework */; };
+		1762213A1907EF5400592DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176221381907EF5400592DED /* InfoPlist.strings */; };
+		176221441907EF8900592DED /* AIBitstampExchangeAPIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176221431907EF8900592DED /* AIBitstampExchangeAPIController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176221301907EF5400592DED /* AIBitstampExchangeAPIController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIBitstampExchangeAPIController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		176221331907EF5400592DED /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		176221371907EF5400592DED /* AIBitstampExchangeAPIController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIBitstampExchangeAPIController-Info.plist"; sourceTree = "<group>"; };
+		176221391907EF5400592DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1762213B1907EF5400592DED /* AIBitstampExchangeAPIController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIBitstampExchangeAPIController-Prefix.pch"; sourceTree = "<group>"; };
+		176221411907EF6600592DED /* DataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceProtocol.h; sourceTree = "<group>"; };
+		176221421907EF8900592DED /* AIBitstampExchangeAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBitstampExchangeAPIController.h; sourceTree = "<group>"; };
+		176221431907EF8900592DED /* AIBitstampExchangeAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBitstampExchangeAPIController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1762212D1907EF5400592DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176221341907EF5400592DED /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176221271907EF5300592DED = {
+			isa = PBXGroup;
+			children = (
+				176221351907EF5400592DED /* AIBitstampExchangeAPIController */,
+				176221321907EF5400592DED /* Frameworks */,
+				176221311907EF5400592DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176221311907EF5400592DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176221301907EF5400592DED /* AIBitstampExchangeAPIController.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176221321907EF5400592DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176221331907EF5400592DED /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		176221351907EF5400592DED /* AIBitstampExchangeAPIController */ = {
+			isa = PBXGroup;
+			children = (
+				176221361907EF5400592DED /* Supporting Files */,
+			);
+			path = AIBitstampExchangeAPIController;
+			sourceTree = "<group>";
+		};
+		176221361907EF5400592DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176221411907EF6600592DED /* DataSourceProtocol.h */,
+				176221421907EF8900592DED /* AIBitstampExchangeAPIController.h */,
+				176221431907EF8900592DED /* AIBitstampExchangeAPIController.m */,
+				176221371907EF5400592DED /* AIBitstampExchangeAPIController-Info.plist */,
+				176221381907EF5400592DED /* InfoPlist.strings */,
+				1762213B1907EF5400592DED /* AIBitstampExchangeAPIController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1762212F1907EF5400592DED /* AIBitstampExchangeAPIController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1762213E1907EF5400592DED /* Build configuration list for PBXNativeTarget "AIBitstampExchangeAPIController" */;
+			buildPhases = (
+				1762212C1907EF5400592DED /* Sources */,
+				1762212D1907EF5400592DED /* Frameworks */,
+				1762212E1907EF5400592DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIBitstampExchangeAPIController;
+			productName = AIBitstampExchangeAPIController;
+			productReference = 176221301907EF5400592DED /* AIBitstampExchangeAPIController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176221281907EF5300592DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = andinfinity;
+			};
+			buildConfigurationList = 1762212B1907EF5300592DED /* Build configuration list for PBXProject "AIBitstampExchangeAPIController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 176221271907EF5300592DED;
+			productRefGroup = 176221311907EF5400592DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1762212F1907EF5400592DED /* AIBitstampExchangeAPIController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1762212E1907EF5400592DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1762213A1907EF5400592DED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1762212C1907EF5400592DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176221441907EF8900592DED /* AIBitstampExchangeAPIController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		176221381907EF5400592DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176221391907EF5400592DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1762213C1907EF5400592DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1762213D1907EF5400592DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1762213F1907EF5400592DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIBitstampExchangeAPIController/AIBitstampExchangeAPIController-Prefix.pch";
+				INFOPLIST_FILE = "AIBitstampExchangeAPIController/AIBitstampExchangeAPIController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		176221401907EF5400592DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIBitstampExchangeAPIController/AIBitstampExchangeAPIController-Prefix.pch";
+				INFOPLIST_FILE = "AIBitstampExchangeAPIController/AIBitstampExchangeAPIController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1762212B1907EF5300592DED /* Build configuration list for PBXProject "AIBitstampExchangeAPIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1762213C1907EF5400592DED /* Debug */,
+				1762213D1907EF5400592DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1762213E1907EF5400592DED /* Build configuration list for PBXNativeTarget "AIBitstampExchangeAPIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1762213F1907EF5400592DED /* Debug */,
+				176221401907EF5400592DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176221281907EF5300592DED /* Project object */;
+}
